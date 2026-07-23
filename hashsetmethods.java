@@ -14,6 +14,9 @@ public class hashsetmethods {
 
         // Checking if an element exists
         System.out.println("Contains 'Banana': " + set.contains("Banana"));
+        // Checking if an element does not exist
+        System.out.println("Contains 'Mango': " + set.contains("Mango"));   
+
 
         // Removing an element
         set.remove("Orange");
@@ -35,7 +38,7 @@ public class hashsetmethods {
 
         // Iterating through the HashSet
         System.out.print("Iterating through HashSet: ");
-        for (String fruit : set) {
+        for (String fruit : newSet) {
             System.out.print(fruit + " ");
         }
     }
