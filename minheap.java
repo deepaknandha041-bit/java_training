@@ -3,7 +3,7 @@ public class minheap {
     public static void main(String[] args) {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 
-        // Adding elements to the min-heap
+                                                                                             
         minHeap.add(5);
         minHeap.add(2);
         minHeap.add(8);

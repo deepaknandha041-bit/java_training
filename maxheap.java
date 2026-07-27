@@ -3,7 +3,7 @@ public class maxheap {
     public static void main(String[] args) {
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
 
-        // Adding elements to the max-heap
+        
         maxHeap.add(5);
         maxHeap.add(2);
         maxHeap.add(8);
